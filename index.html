@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiber Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="/">Fiber</a>
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <div class="login-container">
+          <form class="login-form" id="login">
+            <div class="login-form__group">
+              <label for="user_name">Your Name</label>
+              <input type="text" name="user_name" id="user_name" placeholder="John Doe" />
+            </div>
+            <div class="login-form__group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="john@example.com" />
+            </div>
+            <div class="login-form__group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="login-form__group">
+              <input type="checkbox" name="legal" id="legal" />
+              <label for="legal"> By creating an account on Fiber you agree to the <a href="#">Terms & Conditions</a></label>
+            </div>
+            <button type="submit" class="login-form__submit">Create Fiber Account</button>
+            <p>Already have an account? <a href="#">Sign In</a></p>
+          </form>
+        </div>
+      </section>
+      <section class="slider"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
